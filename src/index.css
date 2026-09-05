@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-rule;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cloud text-ink font-body antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display text-ink;
+  }
+
+  :focus-visible {
+    outline: 2px solid #0F6E64;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  button, a, input, textarea, [role="switch"], [role="button"] {
+    transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease, transform 100ms ease;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-paper border border-rule rounded-2xl shadow-paper;
+  }
+
+  .label {
+    @apply text-[11px] font-semibold tracking-wide text-teal-dark/80 uppercase;
+  }
+
+  .btn-primary {
+    @apply bg-teal text-white font-body font-semibold px-4 py-2.5 rounded-xl hover:bg-teal-dark disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply bg-white border border-rule text-ink font-body font-semibold px-4 py-2.5 rounded-xl hover:border-teal hover:text-teal disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .field {
+    @apply w-full rounded-xl border border-rule bg-white px-3.5 py-2.5 text-sm text-ink placeholder:text-ink/40 focus:border-teal;
+  }
+}
