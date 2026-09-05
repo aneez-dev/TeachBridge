@@ -1,6 +1,6 @@
 # TeachBridge
 
-A structured bridge between teachers and students — multi-class demo (B.Tech CSE Sem 3 and Sem 5 / Machine Learning).
+A structured bridge between teachers who are in need of serious rest or arent available due to emergency and students. — multi-class demo (B.Tech CSE Sem 3 and Sem 5 / Machine Learning).
 
 ## Run via Vercel:
 
