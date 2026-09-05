@@ -26,21 +26,6 @@ npm run build
 npm run preview
 ```
 
-## Deploy to Vercel (via GitHub)
-
-1. Push this folder to a new GitHub repo:
-   ```bash
-   git init
-   git add .
-   git commit -m "TeachBridge MVP"
-   git branch -M main
-   git remote add origin <your-repo-url>
-   git push -u origin main
-   ```
-2. Go to https://vercel.com/new, import the repo.
-3. Framework preset: **Vite**. Build command `npm run build`, output dir `dist` (Vercel usually auto-detects this).
-4. Deploy. The included `vercel.json` handles client-side routing so `/student` and `/` both work on refresh.
-
 ## Notes
 
 - All data is mocked/in-memory per class (see `src/data/mockData.ts`) — resets on page refresh.
