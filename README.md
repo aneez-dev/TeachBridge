@@ -19,7 +19,7 @@ Name field accepts anything — pick the class + role tabs on the login screen, 
 
 A logged-in teacher can also jump between S3 and S5 instantly via the "Switch class" control in the header (demo convenience — each class's data stays fully separate).
 
-## Build
+## Build for Local host
 
 ```bash
 npm run build
@@ -31,4 +31,3 @@ npm run preview
 - All data is mocked/in-memory per class (see `src/data/mockData.ts`) — resets on page refresh.
 - Login is a mocked password check, not real auth — fine for a hackathon demo.
 - S3 and S5 are two independent mock classes; a teacher editing one never touches the other.
-- "Ask AI" has been removed — students submit doubts directly to their teacher ("Ask Teacher"), and teachers reply from their dashboard.
