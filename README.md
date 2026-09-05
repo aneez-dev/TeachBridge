@@ -58,3 +58,11 @@ npm run preview
 - All data is mocked/in-memory per class (see `src/data/mockData.ts`) — resets on page refresh.
 - Login is a mocked password check, not real auth — fine for a hackathon demo.
 - S3 and S5 are two independent mock classes; a teacher editing one never touches the other.
+
+PICTURES:
+<img width="1162" height="606" alt="CaptureSDAF" src="https://github.com/user-attachments/assets/9ef95946-c043-425a-a77a-4277db95cb76" />
+
+<img width="1184" height="639" alt="CaptureSF" src="https://github.com/user-attachments/assets/fcb1c745-1702-482a-a2d9-2e1bbabd0b9e" />
+
+<img width="797" height="659" alt="ZSDFZF" src="https://github.com/user-attachments/assets/2fe10252-c320-4973-aa17-782f3c65ad72" />
+
