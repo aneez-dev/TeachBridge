@@ -22,6 +22,30 @@ Name field accepts anything — pick the class + role tabs on the login screen, 
 
 A logged-in teacher can also jump between S3 and S5 instantly via the "Switch class" control in the header (demo convenience — each class's data stays fully separate).
 
+## Problem Statement
+
+Teachers occasionally have days when they physically cannot be present to conduct a class — due to illness, bed rest, or other emergencies. On such days, the class is either cancelled, left unsupervised, or handed over to a substitute with no context on what was planned. Students lose a day of structured learning, and teachers lose visibility into who actually studied, understood the material, and attended.
+
+There is no simple, lightweight tool that lets a teacher set up a class in advance and let it run itself for the day — while still tracking real student engagement, not just presence.
+
+## Objective
+
+To build a simple web application that lets a teacher prepare a class ahead of time — topic, learning material, videos, and a quiz — so that students can independently go through the lesson, take the quiz, and mark attendance only after genuinely completing it. The system should also let students raise doubts directly to the teacher, to be answered whenever the teacher is available, and should support multiple class sections independently and reliably.
+
+## Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| **React** | Builds the user interface — pages, components, and interactions |
+| **TypeScript** | Adds type safety on top of JavaScript, catching errors during development |
+| **Vite** | Development server and build tool for fast, optimized bundling |
+| **Tailwind CSS** | Utility-first styling for a clean, consistent, responsive design |
+| **React Router** | Handles client-side navigation between login, teacher, and student views |
+| **lucide-react** | Icon library used across the UI |
+| **Mock/local in-memory data** | Simulates class data (topics, PDFs, quizzes, attendance, doubts) for the demo, without requiring a backend |
+| **GitHub** | Source control and version management |
+| **Vercel** | Deployment and hosting of the live application |
+
 ## Build for Local host
 
 ```bash
