@@ -2,14 +2,9 @@
 
 A structured bridge between teachers and students — multi-class demo (B.Tech CSE Sem 3 and Sem 5 / Machine Learning).
 
-## Run locally
+## Run via Vercel:
 
-```bash
-npm install
-npm run dev
-```
-
-Open http://localhost:5173/login
+https://teach-bridge-one.vercel.app/
 
 **Demo logins**
 
